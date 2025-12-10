@@ -1,0 +1,250 @@
+# Translation of Plugins - Gutenberg Essential Blocks – Page Builder for Gutenberg Blocks &amp; Patterns - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - Gutenberg Essential Blocks – Page Builder for Gutenberg Blocks &amp; Patterns - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-26 07:53:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Gutenberg Essential Blocks – Page Builder for Gutenberg Blocks &amp; Patterns - Stable (latest release)\n"
+
+#: blocks/advanced-heading/block.json
+msgctxt "block title"
+msgid "Advanced Heading"
+msgstr "Προηγμένη επικεφαλίδα"
+
+#: includes/blocks-default.php:76 dist/index.js:1
+msgid "Advanced Heading"
+msgstr "Προηγμένη επικεφαλίδα"
+
+#: blocks/progress-bar/block.json
+msgctxt "block description"
+msgid "Make your website interactive with stunning progress bars."
+msgstr "Κάντε τον ιστότοπό σας διαδραστικό με εντυπωσιακές μπάρες προόδου."
+
+#: blocks/pricing-table/block.json
+msgctxt "block description"
+msgid "The pricing table block will let you create an effective product pricing table with perfect styling to get more sales from your prospective buyers."
+msgstr "Το EB Pricing Table θα σας επιτρέψει να δημιουργήσετε έναν αποτελεσματικό πίνακα τιμολόγησης προϊόντων με τέλειο στυλ για να έχετε περισσότερες πωλήσεις από τους υποψήφιους αγοραστές σας."
+
+#: blocks/typing-text/block.json
+msgctxt "block title"
+msgid "Typing Text"
+msgstr "Πληκτρολόγηση κειμένου"
+
+#: blocks/toggle-content/block.json
+msgctxt "block title"
+msgid "Toggle Content"
+msgstr "Εναλλαγή περιεχομένου"
+
+#: blocks/team-member/block.json
+msgctxt "block title"
+msgid "Team Members"
+msgstr "Μέλη Ομάδας"
+
+#: blocks/slider/block.json
+msgctxt "block title"
+msgid "Slider"
+msgstr "Slider"
+
+#: blocks/progress-bar/block.json
+msgctxt "block title"
+msgid "Progress Bar"
+msgstr "Μπάρα Προόδου"
+
+#: blocks/pricing-table/block.json
+msgctxt "block title"
+msgid "Pricing Table"
+msgstr "Πίνακας τιμών"
+
+#: blocks/number-counter/block.json
+msgctxt "block title"
+msgid "Number Counter"
+msgstr "Μετρητής αριθμών"
+
+#: blocks/notice/block.json
+msgctxt "block title"
+msgid "Notice"
+msgstr "Σημείωση"
+
+#: blocks/interactive-promo/block.json
+msgctxt "block title"
+msgid "Interactive Promo"
+msgstr "Διαδραστική προβολή"
+
+#: blocks/infobox/block.json
+msgctxt "block title"
+msgid "Infobox"
+msgstr "Infobox"
+
+#: blocks/image-gallery/block.json
+msgctxt "block title"
+msgid "Image Gallery"
+msgstr "Gallery Φωτογραφιών"
+
+#: blocks/image-comparison/block.json
+msgctxt "block title"
+msgid "Image Comparison"
+msgstr "Σύγκριση εικόνων"
+
+#: blocks/flipbox/block.json
+msgctxt "block title"
+msgid "Flipbox"
+msgstr "Flipbox"
+
+#: blocks/dual-button/block.json
+msgctxt "block title"
+msgid "Dual Button"
+msgstr "Διπλό κουμπί"
+
+#: blocks/countdown/block.json
+msgctxt "block title"
+msgid "Countdown"
+msgstr "Αντίστροφη μέτρηση"
+
+#: blocks/call-to-action/block.json
+msgctxt "block title"
+msgid "Call To Action"
+msgstr "Κάλεσμα για δράση"
+
+#: blocks/testimonial/block.json
+msgctxt "block title"
+msgid "Testimonial"
+msgstr "Είπαν για εμάς"
+
+#: blocks/parallax-slider/block.json
+msgctxt "block title"
+msgid "Parallax Slider"
+msgstr "Parallax Slider"
+
+#: blocks/instagram-feed/block.json
+msgctxt "block title"
+msgid "Instagram Feed"
+msgstr "Instagram Feed"
+
+#: blocks/typing-text/block.json
+msgctxt "block description"
+msgid "Make your website interactive with typing text animation."
+msgstr "Κάντε τον ιστότοπό σας διαδραστικό με την πληκτρολόγηση Κείμενο Animation."
+
+#: blocks/accordion-item/block.json
+msgctxt "block title"
+msgid "Accordion Item"
+msgstr "Στοιχείο ακορντεόν"
+
+#: includes/menu-page-display.php:92
+msgid "<a href=\"%s\" target=\"_blank\">Explore Demos</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Εξερευνήστε τα Demos</a>"
+
+#: includes/blocks-default.php:166
+msgid "Number Counter"
+msgstr "Μετρητής αριθμών"
+
+#: includes/blocks-default.php:156 dist/index.js:1
+msgid "Typing Text"
+msgstr "Πληκτρολόγηση κειμένου"
+
+#: includes/blocks-default.php:151
+msgid "Toggle Content"
+msgstr "Εναλλαγή περιεχομένου"
+
+#: includes/blocks-default.php:146
+msgid "Testimonial"
+msgstr "Μαρτυρία"
+
+#: includes/blocks-default.php:141
+msgid "Team Member"
+msgstr "Μέλη Ομάδας"
+
+#: includes/blocks-default.php:126 dist/index.js:1
+msgid "Slider"
+msgstr "Slider"
+
+#: includes/blocks-default.php:121 dist/index.js:1
+msgid "Progress Bar"
+msgstr "Μπάρα Προόδου"
+
+#: includes/blocks-default.php:116
+msgid "Pricing Table"
+msgstr "Πίνακας τιμών"
+
+#: includes/blocks-default.php:111
+msgid "Parallax Slider"
+msgstr "Παραλλαγή Slider"
+
+#: includes/blocks-default.php:106
+msgid "Notice"
+msgstr "Σημείωση"
+
+#: includes/blocks-default.php:101
+msgid "Interactive Promo"
+msgstr "Διαδραστική προβολή"
+
+#: includes/blocks-default.php:96 dist/index.js:1
+msgid "Instagram Feed"
+msgstr "Τροφοδοσία στο Instagram"
+
+#: includes/blocks-default.php:91
+msgid "Infobox"
+msgstr "Infobox"
+
+#: includes/blocks-default.php:86
+msgid "Image Gallery"
+msgstr "Gallery Φωτογραφιών"
+
+#: includes/blocks-default.php:81
+msgid "Image Comparison"
+msgstr "Σύγκριση εικόνων"
+
+#: includes/blocks-default.php:71
+msgid "Flipbox"
+msgstr "Flipbox"
+
+#: includes/blocks-default.php:66
+msgid "Dual Button"
+msgstr "Διπλό κουμπί"
+
+#: includes/blocks-default.php:61
+msgid "Countdown"
+msgstr "Αντίστροφη μέτρηση"
+
+#: includes/blocks-default.php:56
+msgid "Call To Action"
+msgstr "Κάλεσμα για δράση"
+
+#: includes/blocks-default.php:51 dist/index.js:1
+msgid "Button"
+msgstr "Κουμπί"
+
+#: includes/blocks-default.php:46 dist/index.js:1
+msgid "Accordion"
+msgstr "Ακορντεόν"
+
+#. Author of the plugin
+msgid "WPDeveloper"
+msgstr "WPDeveloper"
+
+#. Description of the plugin
+msgid "The Ultimate Blocks Library for WordPress Gutenberg editor."
+msgstr "Η απόλυτη βιβλιοθήκη μπλοκ για τον επεξεργαστή Gutenberg του WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://essential-blocks.com"
+msgstr "https://essential-blocks.com"
+
+#. Plugin Name of the plugin
+#: includes/category.php:7 includes/class-essential-admin.php:37
+#: includes/class-essential-admin.php:38
+msgid "Essential Blocks"
+msgstr "Βασικά μπλοκ"
+
+#: includes/blocks-default.php:161
+msgid "Wrapper"
+msgstr "Wrapper"
+
+#. Author URI of the plugin
+msgid "https://wpdeveloper.com"
+msgstr "https://wpdeveloper.com"

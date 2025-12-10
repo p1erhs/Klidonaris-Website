@@ -1,0 +1,633 @@
+# Translation of Plugins - WP Image Zoom - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - WP Image Zoom - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-08 02:12:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - WP Image Zoom - Stable (latest release)\n"
+
+#: includes/admin-side.php:335
+msgid "The Flatsome theme replaces the default WooCommerce gallery with a Flickity carousel, which leads to the effects that it zooms only on the first image. Please check <a href=\"%1$s\" target=\"_blank\">this article</a> for a solution to the issue."
+msgstr "플랫섬 테마는 기본 WooCommerce 갤러리를 Flickity 캐러셀로 대체하여 첫 번째 이미지만 확대되는 효과를 가져옵니다. 이 문제에 대한 해결 방법은 <a href=\"%1$s\" target=\"_blank\">이 문서</a>를 참조하세요."
+
+#: includes/admin-side.php:311
+msgid "The <b>Bridge</b> theme replaces the default WooCommerce product gallery with its own. The <b>WP Image Zoom</b> plugin will not work with this replaced gallery. But if you set the \"Enable Default WooCommerce Product Gallery Features\" option to \"Yes\" on the <a href=\"%1$s\">%2$s</a> page, then the zoom will work as expected on the product gallery."
+msgstr "<b>Bridge</b> 테마는 기본 WooCommerce 제품 갤러리를 자체 갤러리로 대체합니다. <b>WP 이미지 줌</b> 플러그인은 이 교체된 갤러리에서 작동하지 않습니다. 그러나 <a href=\"%1$s\">%2$s</a> 페이지에서 \"기본 WooCommerce 제품 갤러리 기능 사용\" 옵션을 \"예\"로 설정하면 제품 갤러리에서 줌이 예상대로 작동합니다."
+
+#: includes/admin-side.php:284
+msgid "Under certain situations the <a href=\"%1$s\">Lazy Loading</a> functionality from Jetpack can interfere with the image zooming. If you're expriencing issues with the zoom, please try deactivating this option. Since WordPress 5.5 the lazy-loading technique is used by default on all the website's images, also when the Lazy Loading option from Jetpack is disabled."
+msgstr "특정 상황에서 젯팩의 <a href=\"%1$s\">지연 로딩</a> 기능이 이미지 확대/축소를 방해할 수 있습니다. 줌에 문제가 발생하는 경우 이 옵션을 비활성화해 보세요. 워드프레스 5.5부터 모든 웹사이트의 이미지에 기본적으로 지연 로딩 기술이 사용되며 젯팩의 지연 로딩 옵션이 비활성화되어 있는 경우에도 마찬가지입니다."
+
+#: includes/admin-side.php:366
+msgid "The <a href=\"%1$s\" target=\"_blank\">Product Gallery Slider for WooCommerce</a> plugin replaces the default WooCommerce gallery with a custom implementation, which, unfortunately, is not compatible with the <b>WP Image Zoom</b> plugin. You can try the image zoom plugin with the default WooCommerce gallery by deactivating the <b>Product Gallery Slider for WooCommerce</b> plugin."
+msgstr "<a href=\"%1$s\" target=\"_blank\">WooCommerce용 제품 갤러리 슬라이더</a> 플러그인은 기본 WooCommerce 갤러리를 사용자 정의 구현으로 대체하지만, 아쉽게도 <b>WP 이미지 줌</b> 플러그인과는 호환되지 않습니다. <b>WooCommerce용 제품 갤러리 슬라이더</b> 플러그인을 비활성화하여 기본 WooCommerce 갤러리로 이미지 줌 플러그인을 사용해 볼 수 있습니다."
+
+#: includes/admin-side.php:350
+msgid "The <a href=\"%1$s\" target=\"_blank\">Additional Variation Images Gallery for WooCommerce</a> plugin replaces the default WooCommerce gallery with a <a href=\"%2$s\" target=\"_blank\">Slick carousel</a> gallery. Unfortunately the <b>WP Image Zoom</b> plugin will not work with the <b>Slick carousel</b> gallery. You can try the zoom plugin with the default WooCommerce gallery by deactivating the <b>Additional Variation Images Gallery for WooCommerce</b> plugin. Alternatively, you can upgrade to the <a href=\"%3$s\">WP Image Zoom Pro</a> version, which is compatible with the <b>Slick carousel</b> gallery, therefore compatible with the <b>Additional Variation Images Gallery for WooCommerce</b> plugin."
+msgstr "<a href=\"%1$s\" target=\"_blank\">WooCommerce용 추가 변형 이미지 갤러리</a> 플러그인은 기본 WooCommerce 갤러리를 <a href=\"%2$s\" target=\"_blank\">스윅 캐러셀</a> 갤러리로 대체합니다. 안타깝게도 <b>WP 이미지 줌</b> 플러그인은 <b>스윅 캐러셀</b> 갤러리와 함께 작동하지 않습니다. <b>WooCommerce용 추가 변형 이미지 갤러리</b> 플러그인을 비활성화하여 기본 WooCommerce 갤러리에서 줌 플러그인을 사용해 볼 수 있습니다. 또는 <b>슬릭 캐러셀</b> 갤러리와 호환되므로 <b>WooCommerce용 추가 변형 이미지 갤러리</b> 플러그인과 호환되는 <a href=\"%3$s\">WP 이미지 줌 프로</a> 버전으로 업그레이드할 수 있습니다."
+
+#: includes/admin-side.php:359
+msgid "The <a href=\"%1$s\" target=\"_blank\">WooCommerce Product Video Gallery</a> plugin replaces the default WooCommerce gallery with a <a href=\"%2$s\" target=\"_blank\">Slick carousel</a> gallery. Unfortunately the <b>WP Image Zoom</b> plugin will not work with the <b>Slick carousel</b> gallery. You can try the zoom plugin with the default WooCommerce gallery by deactivating the <b>WooCommerce Product Video Gallery</b> plugin. Alternatively, you can upgrade to the <a href=\"%3$s\">WP Image Zoom Pro</a> version, which is compatible with the <b>Slick carousel</b> gallery, therefore compatible with the <b>WooCommerce Product Video Gallery</b> plugin."
+msgstr "<a href=\"%1$s\" target=\"_blank\">WooCommerce 제품 동영상 갤러리</a> 플러그인은 기본 WooCommerce 갤러리를 <a href=\"%2$s\" target=\"_blank\">스윅 캐러셀</a> 갤러리로 대체합니다. 안타깝게도 <b>WP 이미지 줌</b> 플러그인은 <b>스윅 캐러셀</b> 갤러리와 함께 작동하지 않습니다. <b>WooCommerce 제품 비디오 갤러리</b> 플러그인을 비활성화하여 기본 WooCommerce 갤러리에서 줌 플러그인을 사용해 볼 수 있습니다. 또는 <b>스윅 캐러셀</b> 갤러리와 호환되므로 <b>WooCommerce 제품 비디오 갤러리</b> 플러그인과 호환되는 <a href=\"%3$s\">WP 이미지 줌 프로</a> 버전으로 업그레이드할 수 있습니다."
+
+#: includes/admin-side.php:341
+msgid "The <b>Smart Image Resize for WooCommerce</b> plugin modifies the WooCommerce product images, which will result in a distorted zoom lens on those images. Unfortunately, if you plan to use the <b>WP Image Zoom</b> plugin on the WooCommerce product images, then, you'll need to deactivate the <b>Smart Image Resize</b> plugin."
+msgstr "<b>WooCommerce용 스마트 이미지 크기 조정</b> 플러그인은 WooCommerce 제품 이미지를 수정하므로 해당 이미지의 줌 렌즈가 왜곡됩니다. 안타깝게도 WooCommerce 제품 이미지에 <b>WP 이미지 줌</b> 플러그인을 사용하려는 경우 <b>스마트 이미지 크기 조정</b> 플러그인을 비활성화해야 합니다."
+
+#: includes/admin-side.php:236 includes/class-iz-compatibilities.php:147
+msgid "Zoom applied to the image. Check on the frontend"
+msgstr "이미지에 확대/축소가 적용되었습니다. 프런트엔드에서 확인"
+
+#. translators: 1: field label 2: value
+#: includes/frm/class-form-fields.php:300
+msgid "The %1$s field accepts only a number. It was set to %2$s"
+msgstr "%1$s 필드에는 숫자만 허용됩니다. %2$s로 설정되었습니다."
+
+#. translators: 1: field label 2: value
+#: includes/frm/class-form-fields.php:287
+msgid "The %1$s field accepts only an integer value. It was set to %2$s"
+msgstr "%1$s 필드는 정수 값만 허용합니다. %2$s로 설정되었습니다."
+
+#: includes/settings.php:498
+msgid "Lens margins extend over image's margins"
+msgstr "렌즈 여백은 이미지의 여백을 넘어 확장됩니다."
+
+#: includes/settings.php:486
+msgid "Image Title Font Size"
+msgstr "이미지 제목 글꼴 크기"
+
+#: includes/settings.php:479
+msgid "Image Title Background Color"
+msgstr "이미지 제목 배경색"
+
+#: includes/settings.php:472
+msgid "Image Title Text Color"
+msgstr "이미지 제목 텍스트 색상"
+
+#: includes/settings.php:464
+msgid "Bottom"
+msgstr "하단"
+
+#: includes/settings.php:463
+msgid "Top"
+msgstr "상단"
+
+#: includes/settings.php:462
+msgid "Do no show"
+msgstr "표시 안 함"
+
+#: includes/settings.php:460
+msgid "Image Title Position on the Zoom Window"
+msgstr "줌 창에서 이미지 제목 위치"
+
+#: includes/settings.php:448
+msgid "In order to apply to more galleries, enter the respective ids separated by comma"
+msgstr "더 많은 갤러리에 적용하려면 각각의 ID를 쉼표로 구분하여 입력합니다."
+
+#: includes/settings.php:445
+msgid "<a href=\"https://wordpress.org/plugins/gallery-images/\" target=\"_blank\">Huge IT Gallery</a> id"
+msgstr "<a href=\"https://wordpress.org/plugins/gallery-images/\" target=\"_blank\">Huge IT Gallery</a> ID"
+
+#: includes/settings.php:432
+msgid "If the images are in a Swiper slider, then type in here the class of the div containing the Swiper slider"
+msgstr "이미지가 스와이퍼 슬라이더에 있는 경우 여기에 스와이퍼 슬라이더가 포함된 div의 클래스를 입력합니다."
+
+#: includes/settings.php:429
+msgid "<a href=\"http://idangero.us/swiper/\" target=\"_blank\">Swiper slider</a> container class"
+msgstr "<a href=\"http://idangero.us/swiper/\" target=\"_blank\">Swiper slider</a> 컨테이너 클래스"
+
+#: includes/settings.php:413
+msgid "<a href=\"https://owlcarousel2.github.io/OwlCarousel2/\" target=\"_blank\">Owl Carousel</a> container class"
+msgstr "<a href=\"https://owlcarousel2.github.io/OwlCarousel2/\" target=\"_blank\">Owl Carousel</a> 컨테이너 클래스"
+
+#: includes/settings.php:408
+msgid "If the images are in a Woo FlexSlider gallery, then type in here the class of the div containing the FlexSlider gallery"
+msgstr "이미지가 Woo 플렉스슬라이더 갤러리에 있는 경우, 플렉스슬라이더 갤러리가 포함된 div의 클래스를 여기에 입력합니다."
+
+#: includes/settings.php:279
+msgid "If the Mousewheel Zoom option is enabled, then the user cannot scroll the page. This option will adjust the Zoom Window's position vertically so it can always be fully visible."
+msgstr "마우스휠 줌 옵션이 활성화된 경우 사용자는 페이지를 스크롤할 수 없습니다. 이 옵션은 줌 창의 위치를 세로로 조정하여 항상 완전히 볼 수 있도록 합니다."
+
+#: includes/settings.php:277
+msgid "Zoom Window vertically responsive"
+msgstr "세로로 반응하는 줌 창"
+
+#: includes/settings.php:271
+msgid "When using the mousewheel, the zoomed level of the image will change"
+msgstr "마우스 휠을 사용하면 이미지의 줌 레벨이 변경됩니다."
+
+#: includes/settings.php:210 includes/settings.php:298
+#: includes/settings.php:307 includes/settings.php:319
+msgid "Feature available only in the PRO Version"
+msgstr "프로 버전에서만 사용할 수 있는 기능"
+
+#: includes/settings.php:188
+msgid "The zoom type will authomatically switch to No Lens zoom once the browser's width becomes less than the threshold. Works only on the frontend, not on this demo."
+msgstr "브라우저 너비가 임계값보다 작아지면 줌 유형이 자동으로 렌즈 없음 줌으로 전환됩니다. 이 데모에서는 작동하지 않고 프런트엔드에서만 작동합니다."
+
+#: includes/settings.php:180
+msgid "The Zoom Window Width will adapt to the browser's size. Works only on the frontend, not on this demo."
+msgstr "줌 창 너비는 브라우저의 크기에 맞게 조정됩니다. 이 데모가 아닌 프런트엔드에서만 작동합니다."
+
+#: includes/settings.php:149
+msgid "Accepted value between 0 and 1"
+msgstr "허용되는 값은 0에서 1 사이입니다."
+
+#: includes/settings.php:91 includes/settings.php:99
+msgid "Only for Zoom Window. Only when Tint is not used"
+msgstr "줌 창에만 해당됩니다. 색조를 사용하지 않는 경우에만"
+
+#: includes/settings.php:68
+msgid "By default the zoom level is calculated automatically from the full size of the uploaded image"
+msgstr "기본적으로 줌 레벨은 업로드된 이미지의 전체 크기에서 자동으로 계산됩니다."
+
+#: includes/settings.php:51
+msgid "mouse click"
+msgstr "마우스 클릭"
+
+#: includes/settings.php:50
+msgid "mouse hover"
+msgstr "마우스 호버"
+
+#. translators: 1: field label 2: value
+#: includes/frm/class-form-fields.php:260
+#: includes/frm/class-form-fields.php:274
+msgid "Unrecognized %1$s. The value was reset to %2$s"
+msgstr "인식할 수 없는 %1$s입니다. 값이 %2$s로 재설정되었습니다."
+
+#: includes/admin-side.php:328
+msgid "<b>The zoom will work</b> on the WooCommerce products images only when having the <b>\"Avada's WooCommerce Product Gallery Slider\"</b> option <b>turned off</b> on the <a href=\"%1$s\">%2$s</a> page"
+msgstr "<a href=\"%1$s\">%2$s</a> 페이지에서 <b>\"아바다의 우커머스 제품 갤러리 슬라이더\"</b> 옵션이 <b>꺼져 있는 경우</b>에만 우커머스 제품 이미지에서 <b>확대/축소가 작동</b>합니다."
+
+#: includes/settings.php:453
+msgid "Enable inside a Lightbox. <a href=\"#TB_inline?width=600&height=400&inlineId=supported-lightboxes\" class=\"thickbox\">See supported lightboxes</a>"
+msgstr "라이트박스 내부에서 사용하도록 설정합니다. <a href=\"#TB_inline?width=600&height=400&inlineId=supported-lightboxes\" class=\"thickbox\">지원되는 라이트박스 보기</a>"
+
+#: includes/settings.php:440
+msgid "If the images are in a Slick carousel gallery, then type in here the class of the div containing the Slick carousel gallery"
+msgstr "이미지가 매끄러운 캐러셀 갤러리에 있는 경우 매끄러운 캐러셀 갤러리가 포함된 div의 클래스를 여기에 입력합니다."
+
+#: includes/settings.php:437
+msgid "<a href=\"https://kenwheeler.github.io/slick/\" target=\"_blank\">Slick carousel</a> container class"
+msgstr "<a href=\"https://kenwheeler.github.io/slick/\" target=\"_blank\">Slick carousel</a> 컨테이너 클래스"
+
+#: image-zoooom.php:53 image-zoooom.php:60
+msgid "An error has occurred. Please reload the page and try again."
+msgstr "오류가 발생했습니다. 페이지를 새로고침하고 다시 시도하세요."
+
+#: includes/settings.php:424
+msgid "If the images are in a Flickity Carousel gallery, then type in here the class of the div containing the Flickity Carousel gallery"
+msgstr "이미지가 Flickity 캐러셀 갤러리에 있는 경우 Flickity 캐러셀 갤러리가 포함된 div의 클래스를 여기에 입력합니다."
+
+#: includes/settings.php:421
+msgid "<a href=\"https://flickity.metafizzy.co/\" target=\"_blank\">Flickity Carousel</a> container class"
+msgstr "<a href=\"https://flickity.metafizzy.co/\" target=\"_blank\">Flickity Carousel</a> 컨테이너 클래스"
+
+#: includes/settings.php:416
+msgid "If the images are in a Owl Carousel gallery, then type in here the class of the div containing the Owl Carousel gallery"
+msgstr "이미지가 부엉이 캐러셀 갤러리에 있는 경우 여기에 부엉이 캐러셀 갤러리가 포함된 div의 클래스를 입력합니다."
+
+#: includes/settings.php:400
+msgid "CSS style selector(s) for identifying the image(s) on which to apply the zoom."
+msgstr "줌을 적용할 이미지를 식별하기 위한 CSS 스타일 선택기입니다."
+
+#: includes/settings.php:397
+msgid "Apply zoom on this particular image(s)"
+msgstr "이 특정 이미지에 확대/축소 적용"
+
+#: includes/admin-side.php:403
+msgid "You are using the zoom on WooCommerce shop pages in combination with a plugin that loads more products with AJAX (a product filter plugin or a \"load more\" products plugin). You'll notice that the zoom isn't applied after new products are loaded with AJAX. Please read <a href=\"%1$s\" target=\"_blank\">this article for a solution</a>."
+msgstr "AJAX로 더 많은 제품을 로드하는 플러그인(제품 필터 플러그인 또는 \"더 로드\" 제품 플러그인)과 함께 WooCommerce 상점 페이지에서 확대/축소를 사용하고 있습니다. 새 제품이 AJAX로 로드된 후에는 확대/축소가 적용되지 않는 것을 알 수 있습니다. <a href=\"%1$s\" target=\"_blank\">이 문서에서 해결 방법을 읽어보세요</a>를 참조하세요."
+
+#: includes/admin-side.php:320
+msgid "WP Image Zoom plugin is <b>not compatible with the <a href=\"%1$s\">WooSwipe WooCommerce Gallery</a> plugin</b>. You can try the zoom plugin with the default WooCommerce gallery by deactivating the WooSwipe plugin. Alternatively, you can upgrade to the WP Image Zoom Pro version, where the issue with the WooSwipe plugin is fixed."
+msgstr "WP 이미지 줌 플러그인은 <a href=\"%1$s\">WooSwipe WooCommerce 갤러리</a> 플러그인과 <b>호환되지 않습니다</b>. WooSwipe 플러그인을 비활성화하여 기본 WooCommerce 갤러리와 함께 줌 플러그인을 사용해 볼 수 있습니다. 또는 WooSwipe 플러그인 문제가 해결된 WP 이미지 줌 프로 버전으로 업그레이드할 수 있습니다."
+
+#: includes/settings.php:384
+msgid "Some themes implement a Lightbox that opens on click on the image. Enabling this checkbox will remove the Lightbox"
+msgstr "일부 테마는 이미지 클릭 시 열리는 라이트박스를 구현합니다. 이 확인란을 활성화하면 라이트박스가 제거됩니다."
+
+#: includes/settings.php:376
+msgid "Some themes implement a Lightbox for WooCommerce galleris that opens on click. Enabling this checkbox will remove the Lightbox on thumbnail images and leave it only on the main image"
+msgstr "일부 테마는 클릭 시 열리는 우커머스 갤러리용 라이트박스를 구현합니다. 이 확인란을 활성화하면 썸네일 이미지에서 라이트박스가 제거되고 기본 이미지에만 남습니다."
+
+#: includes/settings.php:356
+msgid "Tablets are also considered mobile devices"
+msgstr "태블릿도 모바일 기기로 간주됩니다."
+
+#: includes/admin-side.php:305
+msgid "The WP Image Zoom plugin <b>will not work</b> on the WooCommerce products gallery with the Shopkeeper theme. The Shopkeeper theme changes entirely the default WooCommerce gallery with a custom made gallery not supported by the free version of the WP Image Zoom plugin. Please check the <a href=\"%1$s\" target=\"_blank\">PRO version</a> of the plugin for compatibility with the Shopkeeper's gallery."
+msgstr "WP 이미지 줌 플러그인은 Shopkeeper 테마가 있는 WooCommerce 제품 갤러리에서 <b>작동하지 않습니다</b>. Shopkeeper 테마는 무료 버전의 WP 이미지 줌 플러그인에서 지원되지 않는 사용자 지정 갤러리로 기본 WooCommerce 갤러리를 완전히 변경합니다. Shopkeeper 갤러리와의 호환성을 확인하려면 플러그인의 <a href=\"%1$s\" target=\"_blank\">PRO 버전</a>을 참조하세요."
+
+#: includes/settings.php:332
+msgid "Bottom Right"
+msgstr "오른쪽 하단"
+
+#: includes/settings.php:331
+msgid "Bottom Center"
+msgstr "하단 중앙"
+
+#: includes/settings.php:330
+msgid "Bottom Left"
+msgstr "왼쪽 하단"
+
+#: includes/settings.php:329
+msgid "Top Right"
+msgstr "상단 오른쪽"
+
+#: includes/settings.php:328
+msgid "Top Center"
+msgstr "상단 중앙"
+
+#: includes/settings.php:327
+msgid "Top Left"
+msgstr "왼쪽 상단"
+
+#: includes/settings.php:29
+msgid "Zoom"
+msgstr "줌"
+
+#. Author URI of the plugin
+#: image-zoooom.php
+msgid "https://www.silkypress.com"
+msgstr "https://www.silkypress.com"
+
+#. Author of the plugin
+#: image-zoooom.php
+msgid "SilkyPress"
+msgstr "실키프레스"
+
+#. Description of the plugin
+#: image-zoooom.php
+msgid "Add zoom effect over the an image, whether it is an image in a post/page or the featured image of a product in a WooCommerce shop"
+msgstr "글/페이지의 이미지 또는 우커머스 상점의 제품 추천 이미지 등 이미지 위에 줌 효과를 추가합니다."
+
+#. Plugin URI of the plugin
+#: image-zoooom.php
+msgid "https://wordpress.org/plugins/wp-image-zoooom/"
+msgstr "https://wordpress.org/plugins/wp-image-zoooom/"
+
+#: includes/right_columns.php:72
+msgid "Rate it on WordPress.org"
+msgstr "워드프레스닷컴에서 평가하기"
+
+#: includes/right_columns.php:71
+msgid "Share your opinion with the world on the WordPress.org Plugin Repository."
+msgstr "워드프레스닷컴 플러그인 저장소에서 전 세계와 의견을 공유하세요."
+
+#: includes/right_columns.php:68
+msgid "Like this Plugin?"
+msgstr "이 플러그인이 마음에 드시나요?"
+
+#: includes/right_columns.php:60
+msgid "Upgrade to PRO"
+msgstr "프로로 업그레이드"
+
+#: includes/right_columns.php:47
+msgid "WP Image Zoom Pro"
+msgstr "WP 이미지 줌 프로"
+
+#: includes/admin-side.php:154
+msgid "Only available in <a href=\"%1$s\" target=\"_blank\">PRO version</a>"
+msgstr "<a href=\"%1$s\" target=\"_blank\">프로 버전</a>에서만 사용할 수 있습니다."
+
+#: includes/admin-side.php:298
+msgid "The WP Image Zoom plugin <b>will not work</b> on the WooCommerce products gallery with the Avada theme. The Avada theme changes entirely the default WooCommerce gallery with the <a href=\"%1$s\" target=\"_blank\">Flexslider gallery</a> and the zoom plugin does not support the Flexslider gallery. Please check the <a href=\"%2$s\" target=\"_blank\">PRO version</a> of the plugin for compatibility with the Flexslider gallery."
+msgstr "WP 이미지 줌 플러그인은 Avada 테마가 있는 WooCommerce 제품 갤러리에서 <b>작동하지 않습니다</b>. 아바다 테마는 <a href=\"%1$s\" target=\"_blank\">플렉스슬라이더 갤러리</a>가 있는 기본 WooCommerce 갤러리를 완전히 변경하며 줌 플러그인은 플렉스슬라이더 갤러리를 지원하지 않습니다. 플러그인의 <a href=\"%2$s\" target=\"_blank\">PRO 버전</a>에서 플렉스슬라이더 갤러리와의 호환성을 확인하세요."
+
+#: includes/admin-side.php:290
+msgid "<b>If the zoom does not show up</b> on your website, it could be because you need to add the \"image_zoooom-init\" and the \"image_zoooom\" to the \"Scripts to NOT minify\" option in the BWP Minify settings, as shown in <a href=\"%1$s\" target=\"_blank\">this screenshot</a>."
+msgstr "<b>웹사이트에 확대/축소가 표시되지 않는 경우</b> <a href=\"%1$s\" target=\"_blank\">이 스크린샷</a>에 표시된 것처럼 BWP 축소 설정의 \"축소하지 않을 스크립트\" 옵션에 \"image_zoooom-init\" 및 \"image_zoooom\"을 추가해야 하기 때문일 수 있습니다."
+
+#: includes/image-zoom-notices.php:177
+msgid "Dismiss this notice"
+msgstr "이 알림 해제"
+
+#. translators: 1: field label 2: minimum value 3: maximum value 4: value
+#: includes/frm/class-form-fields.php:313
+msgid "%1$s accepts values between %2$s and %3$s. Your value was reset to %4$s"
+msgstr "%1$s에서 %2$s에서 %3$s 사이의 값을 허용합니다. 값이 %4$s로 재설정되었습니다."
+
+#: includes/admin-side.php:148
+msgid "Your settings have been saved."
+msgstr "설정이 저장되었습니다."
+
+#: includes/settings.php:325
+msgid "Text Align"
+msgstr "텍스트 정렬"
+
+#: includes/settings.php:317
+msgid "Text Color"
+msgstr "텍스트 색상"
+
+#: includes/settings.php:304
+msgid "Text Size"
+msgstr "텍스트 크기"
+
+#: includes/settings.php:296
+msgid "Text on the image"
+msgstr "이미지의 텍스트"
+
+#: includes/settings.php:269
+msgid "Mousewheel Zoom"
+msgstr "마우스 휠 줌"
+
+#: includes/settings.php:207
+msgid "Left Center"
+msgstr "왼쪽 중앙"
+
+#: includes/settings.php:206
+msgid "Left Bottom"
+msgstr "왼쪽 하단"
+
+#: includes/settings.php:205
+msgid "Left Top"
+msgstr "왼쪽 상단"
+
+#: includes/settings.php:204
+msgid "Right Center"
+msgstr "오른쪽 중앙"
+
+#: includes/settings.php:203
+msgid "Right Bottom"
+msgstr "오른쪽 하단"
+
+#: includes/settings.php:202
+msgid "Right Top"
+msgstr "오른쪽 상단"
+
+#: includes/settings.php:200
+msgid "Positioning"
+msgstr "위치"
+
+#: includes/settings.php:187
+msgid "Responsive Threshold"
+msgstr "반응형 임계값"
+
+#: includes/settings.php:179
+msgid "Responsive"
+msgstr "반응형"
+
+#: includes/settings.php:95
+msgid "Show as Grid"
+msgstr "그리드로 표시"
+
+#: includes/settings.php:87
+msgid "Lens Color"
+msgstr "렌즈 색상"
+
+#: includes/settings.php:65
+msgid "3 times"
+msgstr "3배"
+
+#: includes/settings.php:64
+msgid "2,5 times"
+msgstr "2,5회"
+
+#: includes/settings.php:63
+msgid "2 times"
+msgstr "2번"
+
+#: includes/settings.php:62
+msgid "1,5 times"
+msgstr "1,5회"
+
+#: includes/settings.php:59
+msgid "Zoom Level"
+msgstr "줌 수준"
+
+#: includes/settings.php:48
+msgid "Enable the zoom on ..."
+msgstr "확대/축소 활성화 ..."
+
+#: includes/settings.php:405
+msgid "FlexSlider container class"
+msgstr "플렉스슬라이더 컨테이너 클래스"
+
+#: includes/settings.php:390
+msgid "Enable on attachments pages"
+msgstr "첨부 파일 페이지에서 사용 설정"
+
+#: includes/settings.php:360
+msgid "Enable on WooCommerce variation products"
+msgstr "우커머스 변형 제품에서 사용 설정"
+
+#: includes/settings.php:381
+msgid "Remove the Lightbox"
+msgstr "라이트박스 제거"
+
+#: includes/settings.php:373
+msgid "Remove the Lightbox on thumbnail images"
+msgstr "썸네일 이미지에서 라이트박스 제거"
+
+#: includes/settings.php:367
+msgid "Enable the zoom on WooCommerce category pages"
+msgstr "우커머스 카테고리 페이지에서 확대/축소 활성화"
+
+#: includes/settings.php:353
+msgid "Enable the zoom on mobile devices"
+msgstr "모바일 장치에서 확대/축소 사용"
+
+#: includes/settings.php:349
+msgid "On a WooCommerce gallery, when clicking on a thumbnail, not only the main image will be replaced with the thumbnail's image, but also the thumbnail will be replaced with the main image"
+msgstr "우커머스 갤러리에서 썸네일을 클릭하면 메인 이미지가 썸네일의 이미지로 대체될 뿐만 아니라 썸네일도 메인 이미지로 대체됩니다."
+
+#: includes/settings.php:346
+msgid "Exchange the thumbnail with main image on WooCommerce products"
+msgstr "우커머스 제품의 썸네일을 기본 이미지와 교환하기"
+
+#: includes/settings.php:340
+msgid "Enable the zoom on WooCommerce products"
+msgstr "우커머스 제품 확대/축소 활성화"
+
+#: includes/settings.php:287
+msgid "The amount of time it takes for the Zoom Window to slowly appear or disappear"
+msgstr "줌 창이 천천히 나타나거나 사라지는 데 걸리는 시간입니다."
+
+#: includes/settings.php:258
+msgid "Rounded Corners"
+msgstr "둥근 모서리"
+
+#: includes/settings.php:244
+msgid "Use 0px to remove the shadow"
+msgstr "0px를 사용하여 그림자 제거"
+
+#: includes/settings.php:240
+msgid "Shadow Thickness"
+msgstr "그림자 두께"
+
+#: includes/settings.php:218
+msgid "Distance from the Main Image"
+msgstr "기본 이미지와의 거리"
+
+#: includes/settings.php:168
+msgid "Zoom Window Height"
+msgstr "줌 창 높이"
+
+#: includes/settings.php:157
+msgid "Zoom Window Width"
+msgstr "줌 창 너비"
+
+#: includes/settings.php:145
+msgid "Tint Opacity"
+msgstr "색조 불투명도"
+
+#: includes/settings.php:139
+msgid "Tint Color"
+msgstr "색조 색상"
+
+#: includes/settings.php:134
+msgid "A color that will layed on top the of non-magnified image in order to emphasize the lens"
+msgstr "렌즈를 강조하기 위해 확대되지 않은 이미지 위에 덧칠할 색상입니다."
+
+#: includes/settings.php:132
+msgid "Tint"
+msgstr "색조"
+
+#: includes/settings.php:123
+msgid "The amount of time it takes for the Lens to slowly appear or disappear"
+msgstr "렌즈가 천천히 나타나거나 사라지는 데 걸리는 시간"
+
+#: includes/settings.php:120 includes/settings.php:284
+msgid "Fade Time"
+msgstr "페이드 시간"
+
+#: includes/settings.php:114 includes/settings.php:252
+msgid "Border Color"
+msgstr "테두리 색상"
+
+#: includes/settings.php:103 includes/settings.php:229
+msgid "Border Thickness"
+msgstr "테두리 두께"
+
+#: includes/settings.php:78
+msgid "For Circle Lens it means the diameters, for Square Lens it means the width"
+msgstr "원형 렌즈의 경우 지름을, 정사각형 렌즈의 경우 너비를 의미합니다."
+
+#: includes/settings.php:75
+msgid "Lens Size"
+msgstr "렌즈 크기"
+
+#: includes/settings.php:39
+msgid "A number between 0 and 200 to represent the degree of the Animation Easing Effect"
+msgstr "애니메이션 완화 효과의 정도를 나타내는 0~200 사이의 숫자입니다."
+
+#: includes/settings.php:37
+msgid "Animation Easing Effect"
+msgstr "애니메이션 완화 효과"
+
+#: includes/settings.php:28
+msgid "Crosshair"
+msgstr "십자선"
+
+#: includes/settings.php:27
+msgid "Pointer"
+msgstr "포인터"
+
+#: includes/settings.php:26 includes/settings.php:61
+msgid "Default"
+msgstr "기본값"
+
+#: includes/settings.php:24
+msgid "Cursor Type"
+msgstr "커서 유형"
+
+#: includes/settings.php:15
+msgid "With Zoom Window"
+msgstr "줌 창 사용"
+
+#: includes/settings.php:14
+msgid "Square Lens"
+msgstr "정사각형 렌즈"
+
+#: includes/settings.php:13
+msgid "Circle Lens"
+msgstr "원형 렌즈"
+
+#: includes/settings.php:12
+msgid "No Lens"
+msgstr "렌즈 없음"
+
+#: includes/settings.php:10
+msgid "Lens Shape"
+msgstr "렌즈 모양"
+
+#. Plugin Name of the plugin
+#: image-zoooom.php includes/admin-side.php:45 includes/admin-side.php:46
+msgid "WP Image Zoom"
+msgstr "WP 이미지 줌"
+
+#: includes/template-settings.php:98
+msgid "Don't forget to save the changes in order to apply them on the website"
+msgstr "웹사이트에 적용하려면 변경 사항을 저장하는 것을 잊지 마세요."
+
+#: includes/template-settings.php:98
+msgid "Step 4"
+msgstr "4단계"
+
+#: includes/template-settings.php:66
+msgid "Zoom Window"
+msgstr "줌 윈도우"
+
+#: includes/template-settings.php:63
+msgid "Lens"
+msgstr "렌즈"
+
+#: includes/template-settings.php:60
+msgid "General"
+msgstr "일반"
+
+#: includes/template-settings.php:55
+msgid "Make more fine-grained configurations on the zoom"
+msgstr "줌을 더 세밀하게 설정하세요."
+
+#: includes/template-settings.php:55
+msgid "Step 3"
+msgstr "3단계"
+
+#: includes/template-settings.php:48
+msgid "Check your configuration changes on the image"
+msgstr "이미지에서 구성 변경 사항을 확인합니다."
+
+#: includes/template-settings.php:48
+msgid "Step 2"
+msgstr "2단계"
+
+#: includes/template-settings.php:41
+msgid "Choose the Lens Shape"
+msgstr "렌즈 모양 선택"
+
+#: includes/template-settings.php:41
+msgid "Step 1"
+msgstr "1단계"
+
+#: includes/template-general.php:65 includes/template-settings.php:102
+msgid "Save changes"
+msgstr "변경 사항 저장"
+
+#: includes/admin-side.php:109 includes/template-general.php:50
+#: includes/template-settings.php:30
+msgid "Zoom Settings"
+msgstr "줌 설정"
+
+#: includes/admin-side.php:108 includes/template-general.php:49
+#: includes/template-settings.php:29
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: includes/template-general.php:45 includes/template-settings.php:25
+msgid "WP Image Zoom by %1$s"
+msgstr "WP 이미지 확대: %1$s"
+
+#: image-zoooom.php:490
+msgid "Settings"
+msgstr "설정"
+
+#: includes/class-iz-compatibilities.php:236
+msgid "WP Image Zoooom"
+msgstr "WP 이미지 Zoooom"

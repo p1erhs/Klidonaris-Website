@@ -1,0 +1,23 @@
+{
+    "key": "group_product_fields",
+    "title": "Πεδία Προϊόντος",
+    "fields": [
+        { "key": "field_colors", "label": "Χρώματα", "name": "colors", "type": "text" },
+        { "key": "field_dimensions", "label": "Διαστάσεις", "name": "dimensions", "type": "text" },
+        { "key": "field_max_weight", "label": "Μέγιστο Βάρος", "name": "max_weight", "type": "number" },
+        { "key": "field_mounting", "label": "Τοποθέτηση", "name": "mounting", "type": "text" },
+        { "key": "field_pdf_file", "label": "Αρχείο PDF", "name": "pdf_file", "type": "file" },
+        { "key": "field_gallery", "label": "Gallery", "name": "gallery", "type": "gallery" },
+        {
+            "key": "field_extra_specs",
+            "label": "Τεχνικά Χαρακτηριστικά (Πίνακας)",
+            "name": "extra_specs",
+            "type": "repeater",
+            "sub_fields": [
+                { "key": "sub_label", "label": "Όνομα", "name": "label", "type": "text" },
+                { "key": "sub_value", "label": "Τιμή", "name": "value", "type": "text" }
+            ]
+        }
+    ],
+    "location": [[{ "param": "post_type", "operator": "==", "value": "product_item" }]]
+}

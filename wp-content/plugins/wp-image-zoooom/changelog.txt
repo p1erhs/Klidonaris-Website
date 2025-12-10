@@ -1,0 +1,327 @@
+
+=== Changelog for the WP Image Zoom plugin ===
+
+= 1.59 2025-03-05 =
+* Feature: compatibility with the SureCart product gallery images
+* Fix: use the pro version, if both the free and the pro version are simultaneously active
+* Tweak: rearrange the options on the General Settings page
+
+= 1.58 2024-11-08 =
+* Use the Script API strategy feature to defer front-end scripts in WordPress 6.3+
+* Use the MutationObserver interface to watch for image change in the WooCommerce gallery
+* Feature: "no-zoooom" CSS class for disabling the zoom effect on any child IMG elements
+
+= 1.57 2024-06-30 =
+* Compatibility with the Kalium theme 
+* Add translation file for Korean
+
+= 1.56 2024-03-29 =
+* Feature: support AVIF images
+
+= 1.55 2023-12-19 =
+* Fix: deprecation notices with PHP8.3
+
+= 1.54 2023-11-14 =
+* Fix: support SVG images with intrinsic size larger than zero
+
+= 1.53 2023-05-17 =
+* Compatibility with the WooCommerce "Custom Order Tables" feature
+
+= 1.52 2022-11-16 =
+* Fix: the zoom lens should be under the menu for the Flatsome theme
+* Fix: remove zoom on placeholder photos on WooCommerce category pages
+* Feature: support SVG images
+
+= 1.51 2022-07-08 =
+* Feature: set the lens above the finger for the touch-screen devices
+* Fix: support ElevatThemes themes, which add a wrapper on top of the page
+
+= 1.50 2022-04-01 =
+* Feature: support mikado themes, which add a wrapper on top of the page
+* Fix: change the FILTER_SANITIZE_STRING filter, deprecated in PHP 8.1
+
+= 1.49 2021-11-02 =
+* Fix: remove the "wc-product-gallery-slider" theme support for themes without a slider
+* Fix: on websites built with Beaver Builder the zoom effect was not shown on the frontend 
+
+= 1.48 2021-10-14 =
+* Feature: support select-themes.com themes, which add a wrapper on top of the page
+* Fix: the zoom was making it hard to select the image element in Beaver and Brizy page builders
+* Fix: the zoom couldn't be applied with the Classic Editor if the Storefront theme was enabled
+
+= 1.47.1 2021-06-21 =
+* Fix: check $_GET variables against an array of allowed values
+* Fix: use "window.parent" instead of "document.parent" when checking if the page is within a page builder or not
+
+= 1.46 2021-03-10 =
+* Fix: remove zoom in Divi Visual Builder for newer versions of Divi
+* The largest image wasn't chosen from the "srcset" attribute
+
+= 1.45 2020-12-18 =
+* Enable the "Custom CSS" field for the Avia page builder elements
+* Declare incompatibility with the Product Gallery Slider for WooCommerce plugin
+* Test with PHP 8.0, WordPress 5.6, WooCommerce 4.8, jQuery 3.5.1
+
+= 1.44 2020-09-26 =
+* Disable the Images Lazy Loading functionality from the Litespeed Cache plugin
+* Warning for the Additional Variation Images Gallery for WooCommerce plugin
+
+= 1.43 2020-08-12 =
+* Test with WordPress 5.5, WooCommerce 4.4 and jQuery 3.5.1
+* Show warning for Additional Variation Images Gallery plugin
+
+= 1.42 2020-07-10 =
+* Fix: remove PHP warning
+* Show warning for incompatibility with Smart Image Resize for WooCommerce plugin
+* Fix: the zoom was making it hard to select the image element in Elementor, Divi Builder and WPBakery
+
+= 1.41 2020-05-29 =
+* Fix: compatibility with the WooCommerce product gallery on the Enfold theme
+* Declare compatibility with WooCommerce 4.1
+
+= 1.40 2020-03-04 =
+* Fix: the WC product images were distorted on the Flatsome theme
+* Fix: allow saving options only if the current user has the "manage_options" capability
+* Changes to the backend form
+* Declare compatibility with WooCommerce 4.0
+
+= 1.39 2020-02-09 =
+* Fix: zoom was showing only in customizer if the Lazy Load option from Jetpack is enabled 
+* Declare compatibility with WooCommerce 3.9
+
+= 1.38 2019-11-20 =
+* Fix: product image gallery was broken on the Brooklyn theme
+* Tweak: update the plugin's presentation video on Youtube
+
+= 1.37 2019-11-05 =
+* Declare compatibility with WordPress 5.3 and WooCommerce 3.8
+* Tweak: change "Visual Composer" to "WPBakery" in notices and documentation
+
+= 1.36 2019-09-07 =
+* Fix: Elementor lightbox skewed if zoom applied on it (https://wordpress.org/support/topic/elementor-lightbox-2/)
+* Fix: zoom wasn't initiating when some lazy load plugins are installed on the website
+* Add notice about the WooCommerce product gallery from the Avada theme
+
+= 1.35 2019-07-19 =
+* Add "with Zoom" style to the Gutenberg image block
+
+= 1.34 2019-06-22 =
+* Fix: zoom wasn't initialized for post/page images served by the ShortPixel CDN
+* Add Turkish translation
+
+
+= 1.33 2019-05-08 =
+* Fix: the zoom is hidden behind a wrapper for all the Edge-Themes
+* Declare compatibility with WooCommerce 3.6
+* Declare compatibility with WordPress 5.2
+
+= 1.32 2019-03-19 =
+* Compatibility with WooCommerce gallery for the theGem theme
+* Fix: Add the `Custom CSS Class` option for Enfold theme builder elements
+* Tweak: update the Bootstrap library used in the admin side to 3.4.1 version
+
+= 1.31 2019-02-23 =
+* Compatibility with the Image Hotspot plugin by DevVN 
+
+= 1.30 2018-12-13 =
+* Fix: remove "trunk" folder from tags. This leads to a "The plugin does not have a valid header" error during the installation
+
+= 1.29 2018-12-09 =
+* Check and declare compatibility with WooCommerce 3.5
+* Check and declare compatibility with WordPress 5.0
+* Code refactoring
+
+= 1.28 2018-10-23 =
+* Fix: the zoom is hidden behind a wrapper for all the Mikado-Themes
+
+= 1.27 2018-10-10 =
+* Fix: the zoom is hidden behind a wrapper on the Salient theme
+* Describe how to apply the zoom with different page builders
+
+= 1.26 2018-08-11 =
+* Fix: add back prettyPhoto for the Sovereign theme
+* Fix: WooCommerce 3.0+ gallery with one image and with a flex gallery on the same page was not working
+* Fix: Flatsome theme with the default WooCommerce gallery, don't remove the gallery-slider support 
+* Tweak: update the list of themes that add a whole page wrapper with the z-index higher than the zoom  
+* Tweak: change the detectmobilebrowser library from jQuery to pure JS
+
+= 1.25 2018-03-31 =
+* Fix: Fatal error for PHP older than 5.5
+* Code refactory
+
+= 1.24 2018-03-29 =
+* Fix: Allow the default WooCommerce lightbox along with the zoom
+* Fix: WC3 with the "Remove Lightbox" option disabled showed a lingering image after closing the lightbox. 
+* Security fix: check the option name against an array of allowed values. (https://advisories.dxw.com/advisories/wp-image-zoom-dos/)
+* Tweak: update the list of themes that add a whole page wrapper with the z-index higher than the zoom  
+
+= 1.23 2018-02-08 =
+* Fix: on window resize, show zoom on WooCommerce gallery only if the option is enabled (https://wordpress.org/support/topic/disabling-the-zoom-not-working/)
+* Fix: if the image's width is set to 0, then there is "division by zero" warning
+
+= 1.22 2018-01-30 =
+* Fix: on window resize, show zoom on WooCommerce category pages only if the option is enabled (https://wordpress.org/support/topic/disabling-the-zoom-not-working/)
+
+= 1.21 2017-12-04 =
+* Tweak: remove the "Exchange the thumbnail with main image on WooCommerce products" for WooCommerce 3, as it doesn't have an effect anymore
+* Compatibility with plugins that load WooCommerce products with AJAX
+* Info about supported lightboxes
+* Compatibility with the YITH WooCommerce Ajax Product Filter plugin
+
+= 1.19 2017-11-05 =
+* Change demo image, presentation video and screenshots
+* Fix: bug https://wordpress.org/support/topic/error-in-the-console-undefined-404/
+* Show warning incompatibility with WooSwipe plugin
+
+= 1.18 2017-10-19 =
+* Declare compatibility with WooCommerce 3.2 (https://woocommerce.wordpress.com/2017/08/28/new-version-check-in-woocommerce-3-2/)
+
+= 1.17 2017-10-14 =
+* Feature: compatibility with the Stockholm theme
+
+= 1.16 2017-09-14 =
+* Feature: support select-themes.com which add a wrapper on top of the page
+
+= 1.15 2017-08-20 =
+* Feature: support zoom for images within Courses and Quizzes for LearnPress
+* Fix: the "Enable zoom on WooCommerce category pages" works also on archive pages 
+
+= 1.14 2017-08-16 =
+* Add French and Romanian translations
+
+= 1.13 2017-07-11 =
+* Fix: https://wordpress.org/support/topic/conflict-with-black-studio-tinymce-widget-3/ 
+* Fix: the zoom overtakes the hover action when a dropdown menu is open
+* Feature: compatibility with the Dorian theme
+
+= 1.12 2017-06-10 = 
+* Feature: support for custom post type
+
+= 1.11 2017-06-07 =
+* Fix: when a caching plugin is present, a tablet is still considered a mobile device 
+* Fix: remove woocommerce slider support for the Kiddy theme
+* Fix: with jQuery v<1.11 the mobile browser needs to be checked with $. instead of jQuery.
+
+= 1.10 2017-05-10 =
+* Fix: warning for the Shopkeeper theme
+* Fix: don't add/remove theme support for the gallery if is not enabled for WooCommerce 
+
+= 1.9 2017-04-09 =
+* Fix: if the image has data-large_image attribute, then use that for the zoom
+* Fix: if data-zoom-image attribute present, then exchange it with the thumbnails in WooCommerce gallery
+* Fix: remove click action on the WooCommerce images
+
+= 1.8 2017-04-04 =
+* Feature: compatibility with WooCommerce 3.0.+
+
+= 1.7 2017-03-27 =
+* Feature: compatibility with the Nouveau theme
+* Feature: compatibility with the WP-Cache Super for the `enable on mobiles` option
+* Fix: don't add the full size image to the srcset if the image is cropped
+* Fix: replace the `move` cursor type with `zoom-in`
+* Fix: compatibility with the 2.8.6+ Virtue theme, see https://wordpress.org/support/topic/woocommerce_single_product_image_html-filter/
+
+= 1.6 2017-02-21 =
+* Feature: compatibility with the Lazy Load plugin (https://wordpress.org/plugins/lazy-load/)
+* Fix: remove the "Compatible with LazyLoad (unveil)" option and apply the fix automatically if the $.unveil function is present
+
+= 1.5 2017-01-22 =
+* Feature: plugin ready for translation
+* Feature: translation for Romanian
+
+= 1.4 2016-12-08 =
+* Feature: "Exchange the thumbnail with the main image on WooCommerce products" option
+* Feature: compatibility with the Artcore theme 
+* Feature: show a notice about BWP Minify configurations
+
+= 1.3.1 2016-09-16 =
+* Fix: remove the prettyPhoto only if WooCommerce is active and only on product pages
+
+= 1.3.0 2016-08-17 =
+* Fix: PHP Notice when adding two arrays without checking first the variable type
+* Fix: add the attachment-shop_single and attachment-thumbnail classes to the WooCommerce product images if these are missing
+* Added grayed out fields as in the PRO version
+
+= 1.2.9 2016-07-20 =
+* Fix: if the full image isn't present in the srcset, add it
+* Fix: compatibility with the Bridge theme
+* Fix: set the data-zoom-image attribute as having priority over the srcset attribute
+
+= 1.2.8 2016-04-21 =
+* Fix: For WooCommerce galleries keep the thumnail's src in data-thumbnail-src. This will fix some esthetic issue with long images
+* Feature: add data-zoom-image attribute if the srcset is not present, but the "zoooom" class is present
+
+= 1.2.7 2016-04-11 =
+* Feature: add TinyMCE button to the LearnDash post types
+
+= 1.2.6 2016-02-14 = 
+* Feature: Enable the zoom on the WooCommerce category pages 
+* Fix: replaced the <?= ?> with <?php echo ?> to make it work for PHP < 5.4 and short_open_tag = Off
+* Feature: you can tag a div with "zoooom" class in order to apply the zoom
+* Feature: compatibility with WPBakery 
+
+= 1.2.5 2016-01-19 = 
+* Added admin-notices 
+
+= 1.2.4 2015-12-24 =
+* Fix: With WordPress 4.4 the WooCommerce thumbnail images were not switched for the main image
+
+= 1.2.3 2015-11-21 = 
+* Fix: The tooltips for checkboxes were not working
+* Fix: 'Distance from the Main Image' was not having an effect on the frontend
+* Fix: removed the mousewheel zoom as it was not working
+* Fix: TinyMCE in the WP-Lister Templates was not working
+
+= 1.2.2 2015-11-06 =
+* Fix: 'Force to work on woocommerce' also on JPEG files 
+
+= 1.2.1 2015-10-20 =
+* Added compatibility with LazyLoad (unveil.js)
+* Fix: with round and square lens the zoom was flickering when getting out of the image area. (https://wordpress.org/support/topic/lazyload-conflicts-more)
+
+= 1.2.0 2015-10-13 =
+* Added .pot file for translation.
+
+= 1.1.4 2015-10-07 =
+* Fix: https://wordpress.org/support/topic/problem-when-resize-window (regenerate the zoomed image when the page is resized)
+* Fix: https://wordpress.org/support/topic/not-working-1307 (when choosing another image from woocommerce gallery, if the image is not big enough to generate a zoom, it was still showing the previously chosen image)
+
+= 1.1.3 2015-08-18 =
+* The Shadow Thickness was not working. 
+
+= 1.1.2 2015-08-05 =
+* Remove the WooCommerce lightbox. It doesn't make sense to have the lightbox and zoom at the same time
+
+= 1.1.1 2015-08-04 =
+* Fix: https://wordpress.org/support/topic/not-working-1307 (force it to work with WooCommerce images, even when the templates tries to load a smaller size image)
+
+= 1.1.0 2015-08-03 =
+* Update to WP 4.2.3
+
+= 1.0.9 2015-06-29 =
+* Fix: https://wordpress.org/support/topic/zoom-appears-behind-an-product-image 
+
+= 1.0.8 2015-06-23 =
+* Fix: https://wordpress.org/support/topic/zoom-configuration-settings-not-available
+
+= 1.0.7 2015-06-21 =
+* Added: right side box with WP Image Zoom Pro
+
+= 1.0.6 2015-06-03 =
+* Fix: https://wordpress.org/support/topic/the-zoom-button-does-not-appear (it was assumed that the path to the plugin is the standard one. Now it loads the .png from a path relative to tinyMCE-button.js)
+
+= 1.0.5 2015-06-01 =
+* Fix: https://wordpress.org/support/topic/parse-error-334 (retrieval of static variables for PHP<5.2 is done differently)
+
+= 1.0.4 2015-05-27 =
+* Fix: solved the JS bug that was leading to "works in the upper-left of the image"
+
+= 1.0.3 2015-05-26 =
+* Fix: add version number to the css, otherwise the css was taken from the cache from the previous version
+
+= 1.0.2 2015-05-26 =
+* Added: "Like this Plugin?" box in the admin
+* Tweak: refactored the "Zoom Settings" page in the admin and added steps
+
+= 1.0 2015-05-19 =
+* Initial commit

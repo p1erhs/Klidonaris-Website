@@ -1,0 +1,105 @@
+/*
+Theme Name: Products Template
+Theme URI: http://localhost/wordpress
+Description: Custom template για προβολή προϊόντων (Child of Astra)
+Author: KL Systems
+Template: astra
+Version: 1.0
+*/
+
+.product-container,
+.archive-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-content,
+.archive-content {
+    display: flex;
+    gap: 20px;
+}
+
+.product-main,
+.archive-main {
+    flex: 3;
+}
+
+.product-sidebar,
+.archive-sidebar {
+    flex: 1;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.tech-specs {
+    list-style: none;
+    padding: 0;
+}
+
+.tech-specs li {
+    margin-bottom: 6px;
+}
+
+.spec-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.spec-table td {
+    border: 1px solid #ddd;
+    padding: 6px 10px;
+}
+
+.btn-download {
+    display: inline-block;
+    background: #0073aa;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.product-gallery {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-gallery img {
+    width: 120px;
+    border-radius: 6px;
+}
+
+.product-card {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .product-content,
+    .archive-content {
+        flex-direction: column;
+    }
+}
