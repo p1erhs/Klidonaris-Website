@@ -1,4 +1,15 @@
 <?php
+//Begin Really Simple Security session cookie settings
+@ini_set('session.cookie_httponly', true);
+@ini_set('session.cookie_secure', true);
+@ini_set('session.use_only_cookies', true);
+//END Really Simple Security cookie settings
+//Begin Really Simple Security key
+define('RSSSL_KEY', 'U3u9bIwnfB9bPaNghSdrPCD9WGPf8DP8laUmDk05NXTjtb7NnKhz0mx9wiOGl8xq');
+define('WP_HOME', 'http://localhost/wordpress');
+define('WP_SITEURL', 'http://localhost/wordpress');
+//END Really Simple Security key
+
 /**
  * The base configuration for WordPress
  *
